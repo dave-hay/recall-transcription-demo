@@ -1,0 +1,34 @@
+:root {
+  --primary: #0d6efd;
+  --border: #e5e7eb;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Helvetica Neue", system-ui, sans-serif;
+  color: #1f2937;
+  line-height: 1.5;
+  background-color: #f8fafc;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-style: normal;
+  gap: 20px;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+  width: 100%;
+}

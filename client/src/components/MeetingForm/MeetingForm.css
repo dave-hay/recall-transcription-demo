@@ -1,0 +1,37 @@
+.meeting-form {
+  display: flex;
+  gap: 1rem;
+}
+
+.meeting-form-input, .meeting-form-button {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+}
+
+.meeting-form-input {
+  width: 100%;
+  border: 1px solid var(--border);
+}
+
+.meeting-form-input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.meeting-form-button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.meeting-form-button:hover {
+  opacity: 0.95;
+}
+
+.meeting-form-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
